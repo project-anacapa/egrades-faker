@@ -10,10 +10,10 @@ violating FERPA.
 To use:
 
 ```
-./egrades --count 20
+./egrades.rb --count 20
 
-./egrades
+./egrades.rb
 
-./egrades --count 20 > roster.csv
+./egrades.rb --count 20 > roster.csv
 ```
 
