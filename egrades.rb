@@ -9,7 +9,7 @@ options = {}
 options[:count]=1
 
 OptionParser.new do |parser|
-
+  parser.banner = "Usage: ./egrades.rb -c COUNT"
   parser.on("-c", "--count COUNT", Integer, "Repeat the message COUNT times") do |v|
     options[:count] = v
   end
